@@ -2,7 +2,6 @@ body {
     font-family: "Fira Code"
   }
   
-  /* Hero Section */
   
   #Hero-Section {
     background-image: url("../img/pexels-photo-986774.jpeg");
@@ -15,10 +14,12 @@ body {
   }
 
   #formation {
-font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+font-size: 13px;
   }
   
-  /* Mis trabajos */
   
   #work .image-top {
     height: 200px;
@@ -26,13 +27,39 @@ font-size: 15px;
     background-size: cover;
     background-position: center;
   }
-  
-  /* Contacto */
-  
-  #Contacto form label {
-    font-weight: 700;
-    color: #373a3c;
+
+.info {
+  font-style: italic;
+  font-size: medium;
+  padding-bottom: 5%;
+  text-align: left;
+
+}
+
+
+.experience {
+  padding-bottom: 5%;
+}
+
+
+.education {
+
+  padding-bottom: 5%;
+
+
   }
+
+
+.skills {
+  padding-bottom: 5%;
+
+
+}
+
+.languages {
+width: fit-content;
+  }
+
   
   @media (max-width: 768px) {
     #Contacto form label {
@@ -47,6 +74,6 @@ font-size: 15px;
   
   footer {
   
-    font-size: 11px;
+    font-size: 10px;
   }
   
